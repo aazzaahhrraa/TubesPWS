@@ -1,0 +1,47 @@
+@extends('layouts.app')
+
+@section('title', 'Home - Pencarian Makanan')
+
+@section('content')
+    <div>
+        <!-- Carousel Section -->
+        <div id="foodCarousel" class="carousel slide mb-8" data-bs-ride="carousel">
+            <div class="carousel-inner" >
+                <div class="carousel-item active" data-bs-interval="1500">
+                    <img src="{{ asset('images/makanan.jpeg') }}" alt="Indonesian Cuisine" class="carousel-img">
+                </div>
+                {{-- <div class="carousel-item">
+                    <img src="{{ asset('images/sate2.jpg') }}" alt="Traditional Food" class="carousel-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ asset('images/nasigoreng.jpg') }}" class="d-block w-100 carousel-img" alt="Explore Flavors">
+                </div> --}}
+            </div>
+            {{-- <button class="carousel-control-prev" type="button" data-bs-target="#foodCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#foodCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button> --}}
+        </div>        
+
+        {{-- <h1 class="text-3xl font-semibold text-center mb-4">Welcome To Gastronesia</h1> --}}
+    </div>
+
+    <style>
+    .carousel-inner {
+        width: 100%;
+        height: 100vh; 
+        position: relative;
+    }
+
+    .carousel-img {
+        width: 100vw; 
+        height: 100vh; 
+        object-fit: cover; 
+    }
+
+    </style>
+@endsection

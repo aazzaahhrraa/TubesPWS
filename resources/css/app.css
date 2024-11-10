@@ -1,0 +1,5 @@
+.carousel-img {
+    width: 100%; /* Mengatur lebar gambar */
+    height: 400px; /* Mengatur tinggi gambar */
+    object-fit: cover; /* Memastikan gambar mengisi area tanpa distorsi */
+}

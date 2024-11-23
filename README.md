@@ -1,7 +1,7 @@
 # TubesPWS
-# GastroNesia
+# PIN
 ## Info
-Nama aplikasi: GastroNesia
+Nama aplikasi: PIN
 Tim Pengembang: Kelompok 3
 1. Jonathan Del Piero Manik - 231402095
    Back-End
